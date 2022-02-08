@@ -1,0 +1,109 @@
+body{
+    width: 100%;
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #9fc5f8;
+    align-items: center;
+}
+
+header h1{
+    font-size: xx-large;
+    color: white;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+}
+header ul li{
+    font-size: x-large;
+    margin: 0 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    margin: 0 auto;
+    width: 60%;
+    position: relative;
+    /* overflow: scroll; */
+}
+
+.topBar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+.selectTemp{
+    display: flex;
+    align-items: center;
+}
+
+.selectTemp p{
+    margin-right: 5px;
+}
+
+.weather{
+    /* border: 1px solid rebeccapurple; */
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.temperature{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+#highest{
+    color: #d13835;
+}
+#lowest{
+    color: #3b81e5;
+}
+
+.weather img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.cookies{
+    margin: 10px auto;
+    width: 60%;
+    border: 2px solid black;
+    align-items: center;
+}
+
+.cookies button{
+    border: 1px solid black;
+    background-color: #9fc5f8;
+    margin: 0 5px;
+    width: 15%;
+    box-shadow: 2px 2px black;
+
+}
+.cookies_statement{
+    padding: 10px;
+    width: 76%;
+}
+.cookies img{
+ padding: 10px;
+}
+.cookies_statement h3{
+    margin: 0;
+}
