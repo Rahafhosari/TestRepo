@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="ButtonClicker.css">
+    
+    <title>Button Clicker</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Dojonary</h1>
+        <input placeholder="Search" />
+        <button onclick="logout(this)">Login</button>
+    </header>
+    <main>
+        <div class="container">
+            <div class="left-section">
+                <div class="ninja">
+                    <div style="width: fit-content;">
+                        <h2>ninja</h2>
+                        <div>
+                            noun<br>
+                            Plurar:ninjas
+                        </div>
+                        <button onclick="popUp(this)">13 likes</button>
+                    </div>
+                    <div>
+                        a parctitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                    </div>
+                </div>
+                <div class="ninja">
+                    <div style="width: fit-content;">
+                        <h2>ninja</h2>
+                        <div>
+                            noun<br>
+                            Plurar:ninjas
+                        </div>
+                        <button onclick="alert('Ninja was liked')">37 likes</button>
+                    </div>
+                    <div>
+                        a <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus
+                    </div>
+                </div>
+            </div>
+            <div class="right-section">
+                <div>Dojonary is defined by YOU</div>
+                <button onclick="hide(this)">Add Definition</button>
+            </div>
+        </div>
+    </main>
+    <script src="ButtonClicker.js"></script>
+</body>
+</html>

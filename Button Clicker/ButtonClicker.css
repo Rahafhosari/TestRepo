@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #cccccc;
+    align-items: center;
+}
+header input{
+    border: 1px black;
+    color: grey;
+    background-color: whitesmoke;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 800px;
+}
+
+.left-section{
+    width: 60%;
+    border: 1px solid rebeccapurple;
+    margin: 15px 15px;
+}
+
+.right-section{
+    width: 40%;
+    border: 1px solid rebeccapurple;
+    margin: 15px 15px;
+    text-align: center;
+}
+
+.ninja{
+    display: flex;
+    align-items: center;
+}
+
+.right-section button{
+    background-color:#93c47d;
+    border: 1px solid black;
+    box-shadow: 2px 2px black;
+}
